@@ -1,1 +1,24 @@
 site_name: My Docs
+repo_url: https://github.com/JoelPaullONS/docs_workshop
+repo_name: JoelPaullONS/docs_workshop
+
+nav:
+  - Home: index.md
+  - About: about.md
+
+plugins:
+  - search:
+      lang: en
+  - mermaid2
+
+theme: mkdocs
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.esm.min.mjs
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
