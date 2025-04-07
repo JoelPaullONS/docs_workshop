@@ -2,10 +2,6 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Serve MkDocs on another port:
-* mkdocs serve -a localhost:9999
-* mkdocs serve --dev-addr=0.0.0.0:80
-
 ## Project layout
 
     mkdocs.yml    # The configuration file.

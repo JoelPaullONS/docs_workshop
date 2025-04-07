@@ -6,11 +6,6 @@ nav:
   - Home: index.md
   - About: about.md
 
-plugins:
-  - search:
-      lang: en
-  - mermaid2
-
 theme: mkdocs
 
 extra_javascript:
@@ -19,6 +14,6 @@ extra_javascript:
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
-        - name: mermaid
-          class: mermaid
+        - name: mermaid2
+          class: mermaid2
           format: !!python/name:mermaid2.fence_mermaid
