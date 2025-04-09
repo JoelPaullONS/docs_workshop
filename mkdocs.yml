@@ -1,10 +1,14 @@
-site_name: My Docs
+site_name: <<Pipeline Name>>
 repo_url: https://github.com/JoelPaullONS/docs_workshop
 repo_name: JoelPaullONS/docs_workshop
 
 nav:
   - Home: index.md
   - About: about.md
+  - Data: data.md
+  - Functionality: functionality.md
+  - Usage Notes: usage.md
+  - Development Notes: dev_notes.md
 
 theme: mkdocs
 
