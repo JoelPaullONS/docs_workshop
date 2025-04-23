@@ -7,21 +7,8 @@
 ---------------------------------------------------------------------------------------------------------------- 
 
 Flow Diagram to visually show how data enters the pipeline, is processed and exits the pipeline, e.g. show data journey
-```
-mermaid2
-%%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#BB2528',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
-      'tertiaryColor': '#fff'
-    }
-  }
-}%%
+
+``` mermaid
 flowchart
     A[My Docs 1]
     B[My Docs 2]
@@ -37,3 +24,4 @@ flowchart
 * mkdocs serve --dev-addr=0.0.0.0:8081
 
 ## How to use GitHub pages?...
+
