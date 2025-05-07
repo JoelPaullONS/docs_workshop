@@ -24,6 +24,7 @@ nav:
   - Functionality: functionality.md
   - Usage Notes: usage.md
   - Development Notes: dev_notes.md
+  - Class Diagram: uml.md
 
 # plugins:
 #   - mkdocstrings:
