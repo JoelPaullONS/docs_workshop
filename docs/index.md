@@ -1,16 +1,41 @@
-# Welcome to "Project Name" Documentation
 
+# 📚 Welcome to *Project Name* Documentation
 
-## Project layout
+This documentation provides a comprehensive guide to understanding, using, and developing the **Project Name** data pipeline. Whether you're a data engineer, analyst, or developer, this guide will help you navigate the architecture, data sources, functionality, and development practices.
 
-    mkdocs.yml              # The configuration file.
-    docs/
-        about.md            # About the Project, including introduction, project layout etc.
-        data.md             # An overview of the data (where it comes from, how frequent the data delivery 
-                            # is, where to find further data information (eg EPIDDs), how many data tables 
-                            # there are, who the downstream users are, and what they're using it for)
-        functionality.md    # Functionality of different pipeline stages, transformers etc. 
-                            # Why are they there, how does this interact with the data
-        usage.md            # How to setup and/or run the pipeline.
-        dev_notes.md        # Anything odd that goes on for future developers to know about, any problems 
-                            # you forsee coming in the future or goals of things you'd like it to be/do.
+---
+
+## 📁 Project Layout
+
+Below is an overview of the documentation structure and what each section covers:
+
+### 🗾 Project Overview
+- Introduction to the project
+- Purpose, scope, and key objectives
+- Contributors and versioning
+- Strategic and operational relevance within the organization
+
+### 🧱 Data Sources
+- Detailed descriptions of each data source
+- Data types, schema, and ingestion frequency
+- Data quality considerations and references (e.g., EPIDDs)
+- Overview of downstream users and their use cases
+
+###🗺️ Architecture Overview
+- High-level architecture diagram (Mermaid)
+- Description of each pipeline stage (ETL, storage, analytics, ML)
+- Technology stack and component interactions
+
+### 🚀 Usage
+- Step-by-step setup instructions
+- Required tools, platforms, and credentials
+- Common pitfalls and troubleshooting tips
+- Tips for simplifying setup
+
+### 🛠️ Development Notes
+- Known quirks and workarounds
+- Foreseeable issues and future goals
+- Development challenges and solutions
+- Outlook and roadmap for upcoming releases
+
+---

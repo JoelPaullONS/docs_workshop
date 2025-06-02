@@ -2,22 +2,68 @@ site_name: <<Pipeline Name>>
 repo_url: https://github.com/JoelPaullONS/docs_workshop
 repo_name: JoelPaullONS/docs_workshop
 
+# commenting out this section prevents the diagrams from rendering. 
+theme:
+  name: material
+  icon: 
+    logo: material/pipe
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+
 nav:
   - Home: index.md
-  - About: about.md
+  - About: project_overview.md
   - Data: data.md
-  - Functionality: functionality.md
+  - Architecture: architecture.md
   - Usage Notes: usage.md
   - Development Notes: dev_notes.md
+  - Class Diagram: uml.md
 
-theme: mkdocs
+# plugins:
+#   - mkdocstrings:
+#       handlers:
+#         python:
+#           options:
+#             docstring_style: numpy
+#             members_order: source
+#             ignore_init_summary: true
+#             merge_init_into_class: true
+#             annotations_path: source
+#             show_signature_annotations: true
+#             show_root_heading: true
+#             show_symbol_type_heading: true
+#   - mike:
+#   - git-revision-date-localized:
+#       enable_creation_date: true
+#       type: timeago
 
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mermaid@10.4.0/dist/mermaid.esm.min.mjs
+# extra:
+#   version:
+#     provider: mike
 
+# This too
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences:
       custom_fences:
-        - name: mermaid2
-          class: mermaid2
-          format: !!python/name:mermaid2.fence_mermaid
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
