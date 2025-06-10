@@ -1,5 +1,5 @@
 
-## 🗾 Project Overview
+## 🗺 Project Overview
 
 This section provides a structured summary of the project, including its purpose, contributors, and organizational relevance.
 

@@ -9,7 +9,7 @@ This documentation provides a comprehensive guide to understanding, using, and d
 
 Below is an overview of the documentation structure and what each section covers:
 
-### 🗾 Project Overview
+### 🗺 Project Overview
 - Introduction to the project
 - Purpose, scope, and key objectives
 - Contributors and versioning
